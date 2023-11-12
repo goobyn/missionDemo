@@ -12,11 +12,11 @@ public class MenuManager : MonoBehaviour
 
     public void StartMedium()
     {
-        SceneManager.LoadScene("EasyScene");
+        SceneManager.LoadScene("MediumScene");
     }
 
     public void StartHard()
     {
-        SceneManager.LoadScene("EasyScene");
+        SceneManager.LoadScene("HardScene");
     }   
 }

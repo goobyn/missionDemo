@@ -217,7 +217,6 @@
           {
             "name": "LightProbes",
             "scenes": [
-              "Assets/Scenes/EasyScene.unity",
               "Assets/Scenes/HardScene.unity",
               "Assets/Scenes/MediumScene.unity",
               "Assets/Scenes/MenuScene.unity"

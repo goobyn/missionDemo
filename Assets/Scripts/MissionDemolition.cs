@@ -61,7 +61,8 @@ public class MissionDemolition : MonoBehaviour
         if (castle != null) {
             Destroy(castle);
         }
-
+        Time.timeScale = 1f;
+        
         Projectile.DESTROY_PROJECTILES();
 
         castle = Instantiate<GameObject>(castles[level]);

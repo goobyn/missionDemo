@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.094288744, g: 0.11945031, b: 0.15523598, a: 1}
+  m_IndirectSpecularColor: {r: 0.09304591, g: 0.11882695, b: 0.15370429, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -452,7 +452,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 211672005}
         m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
         m_MethodName: RestartLevel
         m_Mode: 1
@@ -917,7 +917,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 211672005}
         m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
         m_MethodName: ResumeGame
         m_Mode: 1
@@ -3470,7 +3470,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 211672005}
         m_TargetAssemblyTypeName: PauseManager, Assembly-CSharp
         m_MethodName: QuitToMenu
         m_Mode: 1
